@@ -1,0 +1,121 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e6f2f2;
+    color: #222;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Container */
+.container {
+    width: 70%;
+    max-width: 900px;
+    margin: 40px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease-in-out;
+}
+
+.container:hover {
+    transform: scale(1.02);
+}
+
+/* Header */
+header {
+    text-align: center;
+    border-bottom: 3px solid #008080;
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+}
+
+h1 {
+    color: #008080;
+    margin-bottom: 8px;
+    font-size: 28px;
+}
+
+.contact-info {
+    font-size: 17px;
+    color: #444;
+}
+
+/* Sections */
+section {
+    margin-bottom: 25px;
+}
+
+h2 {
+    color: #008080;
+    border-bottom: 3px solid #005555;
+    padding-bottom: 8px;
+}
+
+/* Skills Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 12px;
+}
+
+th, td {
+    border: 1px solid #bbb;
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background: #008080;
+    color: white;
+    font-size: 16px;
+}
+
+td {
+    background: #f9f9f9;
+}
+
+/* Hover effect for table rows */
+tr:hover td {
+    background: #e0f0f0;
+}
+
+/* Download Button */
+.download-btn {
+    display: inline-block;
+    background: #008080;
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background 0.3s ease-in-out;
+    text-align: center;
+}
+
+.download-btn:hover {
+    background: #005555;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .download-btn {
+        width: 100%;
+        text-align: center;
+    }
+}
